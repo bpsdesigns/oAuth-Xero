@@ -1,0 +1,11 @@
+Use these files and functions to connect and authenticate with the xero.com API for a public App.
+
+The functions used are inside the functions folder.
+
+The other files are named accordingly (eg request-token.asp) etc.
+
+Edit the files and add your consumer key and secret. Upload them to your web-server and browse to the request-token.asp file. If everything goes to plan you should be redirected to Xero to login. Once you login you should be faced with a form to allow your app to have access to your xero account.
+
+Once set it should then redirect to the callback.asp page to get the actual token and secret.
+
+The callback.asp file is the one you have to set in Xero on the "Callback domain" field on your App page.
